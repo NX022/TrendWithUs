@@ -1,0 +1,96 @@
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: hsl(353, 100%, 78%);
+}
+
+.main-content {
+  margin-top: 30px;
+  display: flex;
+}
+
+.item-image {
+  width: 35rem;
+  height: auto;
+  margin-left: 50px;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.rating {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.checked {
+  color: orange;
+}
+
+.rated {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid #388e3c;
+  background-color: #388e3c;
+  width: 35px;
+  border-radius: 0.5rem;
+}
+
+/* CSS for textboxes */
+#order-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#order-form input[type="text"],
+#order-form input[type="email"],
+#order-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#order-form button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#order-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#bill {
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+#bill h3 {
+  text-align: center;
+}
+
+#bill p {
+  margin-bottom: 10px;
+}
+
+#bill strong {
+  margin-right: 10px;
+}
